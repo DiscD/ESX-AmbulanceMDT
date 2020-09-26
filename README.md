@@ -2,8 +2,8 @@
 Made by DiscD | ziv#7570
 
 # Information
-• Paramedics form.
-• Synced & Good animation.
+• Paramedics form.\n
+• Synced & Good animation.\n
 • Get all of injured information about patients.
 • Nice UI & Synced to 'ambulance' job.
 
