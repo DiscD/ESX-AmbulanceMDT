@@ -1,5 +1,5 @@
 # ESX-AmbulanceMDT
-Made by DiscD | ziv#7570
+Whole changes by DiscD aka ziv#7570 | First made by MParry1610
 
 # Information
 • Paramedics form, Synced & Good animation, Get all of injured information about patients, Nice UI & Synced to 'ambulance' job.
