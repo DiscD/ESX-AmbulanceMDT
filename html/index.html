@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	 <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="medical_form">
+		<button id="close-button">סגור</button>
+		<button type="submit" id="new">טופס חדש</button>
+		<h1><b><center>טופס רפואי</center></b></h1>
+		<div class="header">
+			<div id="search">
+				<input type="text" id="search_first" name="search" placeholder="שם פרטי">
+				<input type="text" id="search_last" name="searchLast" placeholder="שם משפחה">
+				<button type="submit" id="search_button">חיפוש</button>
+			</div>
+		</div>
+
+
+		<!-- CHECK PT INFO -->
+		<div class="patient-info">
+			<div class="written-info"> 
+				<div id="first-name">
+					<p>שם פרטי:</p>
+					<p id="pt-first">הסר</p>
+				</div>
+				<div id="last-name">
+					<p>שם משפחה: </p>
+					<p id="pt-last">הסר</p>
+				</div>
+				<div id="dob">
+					<p>תאריך לידה: </p>
+					<p id="pt-dob">הסר</p>
+				</div>
+				<div id="allergies">
+					<p>אלרגיות: </p>
+					<textarea id="allergies-info" disabled cols="40" rows="3" ></textarea>
+				</div>
+				<div id="assessment">
+					<p>הערכה רפואית: </p>
+					<textarea id="assess" cols="40" rows="4" ></textarea>
+				</div>
+				<div id="medical-history">
+					<p>היסטורייה רפואית: </p>
+					<textarea id="history" disabled cols="40" rows="7" ></textarea>
+				</div>
+			</div>
+			<button id="update">עדכון</button>
+			<button id="delete">מחיקה</button>
+		</div>
+		<!----------------------------------------------------------------->
+
+		<!-- CREATE NEW FORM -->
+		<div class="new-form">
+			<div class="written-info">
+				<div id="input-first">
+					<p>שם פרטי:</p>
+					<input type="text" id="first_name"  placeholder="שם פרטי">
+				</div>
+				<div id="input-last">
+					<p>שם משפחה:</p>
+					<input type="text" id="last_name"  placeholder="שם משפחה">
+				</div>
+				<div id="input-dob">
+					<p>תאריך לידה:</p>
+					<input type="text" id="dob-pt"  placeholder="YYYY-MM-DD">
+				</div>
+				<div id="input-allergies">
+					<p>אלרגיות:</p>
+					<textarea id="pt-allergies" name="allergies" placeholder="אלרגיות ידועות"
+					cols="40" rows="4"></textarea>
+				</div>
+				<div id="input-assessment">
+					<p>הערכה רפואית:</p>
+					<textarea id="reason" name="assessment" placeholder="תאר פציעות שנגרמו למטופל" cols="40" rows="6"></textarea>
+				</div>
+			</div>
+			<button id="save">שמור</button>
+		</div>
+		<!----------------------------------------------------------------->
+
+		<div class="error">
+			<h3>היסטורייה רפואית אינה נמצאה</h3>
+		</div>
+	</div>
+	 <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
